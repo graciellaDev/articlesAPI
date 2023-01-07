@@ -1,0 +1,40 @@
+:root {
+    --grey: #161B22;
+    --ligth-grey: #1C2128;
+    --border-grey: #27272B;
+    --text-grey: #A6A7A8;
+    --active-grey: #777777;
+    --green: #423A24;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+    padding-bottom: 30px;
+    border: 1px solid var(--ligth-grey);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--grey);
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-bottom: 1px solid var(--ligth-grey);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #000;
+}
+
+.comments__email {
+    /* font-size: small; */
+    color: var(--active-grey);
+}

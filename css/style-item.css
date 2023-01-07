@@ -1,0 +1,47 @@
+.article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 50px;
+}
+
+.link-to-main {
+    display: inline-block;
+    grid-column: span 2;
+    padding: 30px;
+    color: inherit;
+}
+
+.title {
+    grid-column: span 2;
+}
+
+.description {
+    margin: 0;
+    padding: 0 30px;
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 20px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.comments__name {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.comments__email {
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.comments__text {
+    margin: 0;
+    padding: 10px;
+    border-left: 1px solid #fff;
+}
